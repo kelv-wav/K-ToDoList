@@ -9,11 +9,30 @@
 
 
 
-
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:layout_editor_absoluteX="1dp"
-        tools:layout_editor_absoluteY="1dp"     />
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:listitem="@layout/tasks_layout_itens"
+        tools:itemCount="10"
+        />
+
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/fab"
+        android:text="Add Task"
+        android:contentDescription="botton for add tasks"
+        android:layout_margin="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        app:icon="@drawable/add_task_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+         />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
