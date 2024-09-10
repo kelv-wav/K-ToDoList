@@ -27,12 +27,14 @@
         android:text="Add Task"
         android:contentDescription="botton for add tasks"
         android:layout_margin="16dp"
+        android:textColor="@color/white"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:clickable="true"
-        app:icon="@drawable/add_task_icon"
+        app:icon="@drawable/baseline_post_add_24"
+        app:iconTint="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-         />
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

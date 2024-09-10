@@ -11,7 +11,7 @@
         android:id="@+id/nameLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Set the name task"
+        android:hint="Nome da tarefa"
         android:layout_margin="16dp"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -33,7 +33,7 @@
         android:id="@+id/descLayout"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:hint="Set the description task"
+        android:hint="Descricao da tarefa"
         tools:ignore="MissingConstraints"
         android:layout_margin="16dp"
         app:layout_constraintTop_toBottomOf="@id/nameLayout"
@@ -58,6 +58,7 @@
 
 
     <com.google.android.material.button.MaterialButton
+        android:id="@+id/saveTaskButton"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="ADD TASK"

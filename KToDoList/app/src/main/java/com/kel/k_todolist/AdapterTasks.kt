@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 
-class Adapter ( private val tasks: List<Task>) : RecyclerView.Adapter<Adapter.ViewHolder>() {
+class AdapterTasks (private val tasks: List<Task>) : RecyclerView.Adapter<AdapterTasks.ViewHolder>() {
 
 
     inner class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
