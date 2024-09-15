@@ -19,7 +19,7 @@ This is a simple To-Do List application built using Kotlin. The app allows users
 
 1. Clone this repository:  
     ```bash
-    git clone https://github.com/yourusername/todolistapp.git
+    git clone https://github.com/kelv-wav/k-todolist.git
     ```
 2. Open the project in Android Studio.
 3. Build and run the application on an emulator or physical device.
